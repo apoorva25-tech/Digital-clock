@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #5a3e36, #3b2a25, #1f1512);
+    font-family: 'Segoe UI' , sans-serif;
+}
+
+
+.clock-container {
+    padding: 30px 60px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+}
+
+#Clock{
+    font-size: 60px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-shadow:   0 0 10px #ffd6c2,
+                   0 0 20px #ffbfa3,
+                   0 0 30px #ff9e80; 
+}
